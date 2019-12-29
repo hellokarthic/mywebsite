@@ -3,7 +3,7 @@ date: '2016-06-21'
 title: 'Volunteer'
 company: 'Mozilla'
 location: 'Remote'
-range: 'Jan - June 2016'
+range: 'Jan 2013 - Present'
 url: 'https://www.mozilla.org/'
 ---
 
