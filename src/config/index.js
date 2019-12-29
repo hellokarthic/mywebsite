@@ -6,6 +6,8 @@ module.exports = {
     'Karthickeyan Narasimhan, Karthickeyan, Narasimhan, hellokarthic, software engineer, back-end engineer, web developer, javascript, devops, AWS, annauniversity, freshworks, zarget',
   siteUrl: 'https://hellokarthic.com',
   siteLanguage: 'en_US',
+  googleAnalyticsID: 'UA-155083792-1',
+  googleVerification: 'PfEv_79vBNgpe8W39umaYhU9MJMGPgq1HvRB1bq_HK4',
   name: 'Karthickeyan Narasimhan',
   location: 'Chennai, India',
   email: 'nkarthic95@gmail.com',
