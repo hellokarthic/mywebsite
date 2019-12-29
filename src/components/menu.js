@@ -100,13 +100,14 @@ const Menu = ({ menuOpen, toggleMenu }) => {
       <Sidebar>
         <NavLinks>
           <NavList>
-            {navLinks &&
-              navLinks.map(({ url, name }, i) => (
-                <NavListItem key={i}>
-                  <NavLink to={url}>{name}</NavLink>
-                </NavListItem>
-              ))}
+            {navLinks && navLinks.map(({ url, name }, i) => <NavLink to={url}>{name}</NavLink>)}
           </NavList>
+          <ResumeLink
+            href="https://mozkarthic.wordpress.com/"
+            target="_blank"
+            rel="nofollow noopener noreferrer">
+            Blog
+          </ResumeLink>
           <ResumeLink href="/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
             Resume
           </ResumeLink>
