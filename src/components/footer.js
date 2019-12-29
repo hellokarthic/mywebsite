@@ -131,14 +131,6 @@ const Footer = () => {
 
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
-              <span>
-                // <IconStar />
-                <span>{/* githubInfo.stars */}</span>
-              </span>
-              <span>
-                // <IconFork />
-                <span>{/* githubInfo.forks */}</span>
-              </span>
             </StyledGitHubInfo>
           )}
         </StyledGitHubLink>
