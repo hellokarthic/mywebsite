@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import config from '@config';
 import favicon from '@images/favicons/favicon.ico';
 import ogImage from '@images/og.png';
-import appleIcon57x57 from '@images/favicons/apple-icon-57x57.png';
+import appleIcon58x58 from '@images/favicons/apple-icon-58x58.png';
 import appleIcon60x60 from '@images/favicons/apple-icon-60x60.png';
 import appleIcon72x72 from '@images/favicons/apple-icon-72x72.png';
 import appleIcon76x76 from '@images/favicons/apple-icon-76x76.png';
@@ -16,7 +16,7 @@ import appleIcon180x180 from '@images/favicons/apple-icon-180x180.png';
 import androidIcon192x192 from '@images/favicons/android-icon-192x192.png';
 import favicon32x32 from '@images/favicons/favicon-32x32.png';
 import favicon96x96 from '@images/favicons/favicon-96x96.png';
-import favicon16x16 from '@images/favicons/favicon-16x16.png';
+import favicon15x15 from '@images/favicons/favicon-15x15.png';
 import msIcon144x144 from '@images/favicons/ms-icon-144x144.png';
 
 const Head = ({ metadata }) => (
@@ -53,7 +53,7 @@ const Head = ({ metadata }) => (
     <meta name="twitter:image" content={`${config.siteUrl}${ogImage}`} />
     <meta name="twitter:image:alt" content={metadata.title} />
 
-    <link rel="apple-touch-icon" sizes="57x57" href={appleIcon57x57} />
+    <link rel="apple-touch-icon" sizes="58x58" href={appleIcon58x58} />
     <link rel="apple-touch-icon" sizes="60x60" href={appleIcon60x60} />
     <link rel="apple-touch-icon" sizes="72x72" href={appleIcon72x72} />
     <link rel="apple-touch-icon" sizes="76x76" href={appleIcon76x76} />
@@ -65,7 +65,7 @@ const Head = ({ metadata }) => (
     <link rel="icon" type="image/png" sizes="192x192" href={androidIcon192x192} />
     <link rel="icon" type="image/png" sizes="32x32" href={favicon32x32} />
     <link rel="icon" type="image/png" sizes="96x96" href={favicon96x96} />
-    <link rel="icon" type="image/png" sizes="16x16" href={favicon16x16} />
+    <link rel="icon" type="image/png" sizes="15x15" href={favicon15x15} />
     <meta name="msapplication-TileColor" content={config.navyColor} />
     <meta name="msapplication-TileImage" content={msIcon144x144} />
     <meta name="theme-color" content={config.navyColor} />
