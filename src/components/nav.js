@@ -294,7 +294,7 @@ class Nav extends Component {
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                     <StyledResumeButton
-                      href="https://mozkarthic.wordpress.com/"
+                      href="https://blog.hellokarthic.com/"
                       target="_blank"
                       rel="nofollow noopener noreferrer">
                       Blog
