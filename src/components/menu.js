@@ -103,7 +103,7 @@ const Menu = ({ menuOpen, toggleMenu }) => {
             {navLinks && navLinks.map(({ url, name }, i) => <NavLink to={url}>{name}</NavLink>)}
           </NavList>
           <ResumeLink
-            href="https://mozkarthic.wordpress.com/"
+            href="https://blog.hellokarthic.com/"
             target="_blank"
             rel="nofollow noopener noreferrer">
             Blog
